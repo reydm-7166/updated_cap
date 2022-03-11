@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/admin_order_details.css">
+    <style>
+        * {
+        box-sizing: border-box;
+            }
+        h2 {
+            display: inline-block;
+        }
+        h3 {
+            position: absolute;
+            top: .1rem;
+            right: 5rem;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+    <nav class="bg-danger">
+        <h2 class="m-4"><a href="">Dashboard</a></h2>
+        <h2 class="m-4"><a href="admin_orders.html">Orders</a></h2>
+        <h2 class="m-4"><a href="admin_products.html">Products</a></h2>
+        <h3 class="m-4"><a href="">Log off</a></h3>
+    </nav>
+    
+    <main>
+        <div class="details m-5 p-2">
+            <h4>Order ID: 1</h4>
+            <h5 class="mt-5">Customer shipping info:</h5>
+            <p>Name: BOB</p>
+            <p>Address: BOB</p>
+            <p>City: BOB</p>
+            <p>State: BOB</p>
+            <p>Zip: BOB</p>
+
+            <h5 class="mt-5">Customer Billing Info</h5>
+            <p>Name: BOB</p>
+            <p>Address: BOB</p>
+            <p>City: BOB</p>
+            <p>State: BOB</p>
+            <p>Zip: BOB</p>
+
+        </div>
+    </main>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Billing Address</th>
+                    <th>Total</th>
+                    </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="admin_order_details.html">342sdfsd3</a></td>
+                    <td>Maria Anders</td>
+                    <td>2022/12/11</td>
+                    <td>IDK BULACAN</td>
+                    <td>$3212.77</td>
+                </tr>
+                
+                <tr>
+                    <td><a href="admin_order_details.html">3423</a></td>
+                    <td>Maria Anders</td>
+                    <td>2022/12/11</td>
+                    <td>IDK BULACAN</td>
+                    <td>$3212.77</td>
+                </tr>
+            </tbody>
+            
+          </table>
+          
+          
+    </section>
+    <input id="status" type="text" name="status" disabled value="Shipped">
+    <div class="information p-2">
+        <h4>Sub total: $29</h4>
+        <h4>Shipping: $100</h4>
+        <h4>Total price: $30.98</h4>
+    </div>
+    
+</body>
+</html>

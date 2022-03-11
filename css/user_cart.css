@@ -1,0 +1,80 @@
+body {
+    height: 200vh;
+}
+* {
+    box-sizing: border-box;
+    }
+    h2 {
+        display: inline-block;
+    }
+    #cart {
+        position: absolute;
+        top: 1rem;
+        right: 10rem;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    a:hover {
+        color: white;
+    }
+    nav {
+        background-color: red;
+        padding: 1rem
+    }
+
+    table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+    }
+
+    td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    }
+
+    tr:nth-child(even) {
+    background-color: #dddddd;
+    }
+
+    main {
+        min-height: 20vh;
+        width: 95%;
+        margin: 5rem 2rem 2rem 2rem;
+        display: inline-block;
+        vertical-align: top;
+        text-align: right;
+    }
+
+    .total {
+        margin-top: 2rem;
+    }
+    main a {
+        color: white;
+        text-decoration: none;
+    }
+section {
+    height: 85vh;
+    width: 25%;
+    border: 1px solid black;
+    margin-left: 5rem;
+    padding: 3rem;
+}
+    section input {
+        margin-top: .5rem;
+    }
+    section .forms {
+        text-align: right;
+    }
+    section h2 {
+        margin-right: 5rem;
+    }
+    section label {
+        margin-right: 1rem;
+        font-style: italic;
+        font-weight: bold;
+    }

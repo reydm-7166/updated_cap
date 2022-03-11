@@ -1,0 +1,88 @@
+body {
+    height: 100vh;
+}
+* {
+    box-sizing: border-box;
+    }
+    h2 {
+        display: inline-block;
+    }
+    #back {
+        margin: 2rem 0 0 2rem;
+    }
+    #cart {
+        position: absolute;
+        top: 1rem;
+        right: 10rem;
+        
+    }
+    nav a {
+        color: white;
+        border-bottom: 1px white solid;
+        padding-bottom: 5px;
+        text-decoration: none;
+    }
+    a:hover {
+        color: white;
+    }
+    nav {
+        background-color: red;
+        padding: 1rem
+    }
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+        border: 1px solid black;
+        margin-left: 56rem;
+    }
+
+    td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    }
+
+    tr:nth-child(even) {
+    background-color: #dddddd;
+    }
+
+    main {
+        min-height: 20vh;
+        width: 95%;
+        margin: 1rem 2rem 2rem 2rem;
+        display: inline-block;
+        vertical-align: top;
+        text-align: right;
+    }
+
+    .total {
+        margin-top: 2rem;
+    }
+    main a {
+        color: white;
+        text-decoration: none;
+    }
+section {
+    width: 28%;
+    margin-left: 5rem;
+    padding: 1rem 3rem 1rem 3rem;
+    position: absolute;
+    top: 7rem;
+    left: 7rem;
+}
+    section input {
+        margin-top: .5rem;
+    }
+    section .forms {
+        text-align: right;
+    }
+    section h2 {
+        margin-right: 5rem;
+    }
+    section label {
+        margin-right: 1rem;
+        font-style: italic;
+        font-weight: bold;
+    }

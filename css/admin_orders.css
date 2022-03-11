@@ -1,0 +1,70 @@
+* {
+            box-sizing: border-box;
+        }
+        h2 {
+            display: inline-block;
+        }
+        h3 {
+            position: absolute;
+            top: .1rem;
+            right: 5rem;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            color: white;
+        }
+        form {
+            height: 20vh;
+            /* outline: 1px solid black; */
+        }
+            #search {
+                font-size: 1.5rem;
+                margin-left: 5rem;
+                margin-top: 2rem;
+                border-radius: .2rem;
+            }
+            #sort {
+                position: absolute;
+                top: 7rem;
+                font-size: 1.5rem;
+                right: 5rem;
+                border-radius: .2rem;
+            }
+        section {
+            text-align: center;
+        }    
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 90%;
+                margin: auto;
+            }
+
+            td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+                text-align: center;
+            }
+
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
+            th:last-of-type {
+                width: 10px;
+            }
+            th:first-child {
+                width: 5%;
+            }
+            th:nth-child(5){
+                width: 10%;
+            }
+            th:nth-child(3){
+                width: 10%;
+            }
+        section a {
+            color: blue;
+        }  

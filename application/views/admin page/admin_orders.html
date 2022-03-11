@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/admin_orders.css">
+    <style>
+        * {
+        box-sizing: border-box;
+            }
+        h2 {
+            display: inline-block;
+        }
+        h3 {
+            position: absolute;
+            top: .1rem;
+            right: 5rem;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            color: white;
+        }
+    </style>
+    <title>Admin Orders</title>
+</head>
+<body>
+    <nav class="bg-danger">
+        <h2 class="m-4"><a href="">Dashboard</a></h2>
+        <h2 class="m-4"><a href="">Orders</a></h2>
+        <h2 class="m-4"><a href="admin_products.html">Products</a></h2>
+        <h3 class="m-4"><a href="">Log off</a></h3>
+    </nav>  
+
+    <main>
+        <form action="" method="post">
+            <input type="text" name="search" id="search" placeholder="Search...">
+            <select name="sort" id="sort">
+                <option value="all" selected>Show All</option>
+                <option value="processing">Processing</option>
+                <option value="shipped">Shipped</option>
+                <option value="cancelled">Cancelled</option>
+            </select>
+        </form>
+    </main>
+    
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Billing Address</th>
+                    <th>Total</th>
+                    <th>Status</th>
+                    </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="admin_order_details.html">3423</a></td>
+                    <td>Maria Anders</td>
+                    <td>2022/12/11</td>
+                    <td>IDK BULACAN</td>
+                    <td>$3212.77</td>
+                    <td><select name="sort">
+                            <option value="processing">Processing</option>
+                            <option value="shipped">Shipped</option>
+                            <option value="cancelled">Cancelled</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><a href="admin_order_details.html">3423</a></td>
+                    <td>Maria Anders</td>
+                    <td>2022/12/11</td>
+                    <td>IDK BULACAN</td>
+                    <td>$3212.77</td>
+                    <td><select name="sort">
+                            <option value="processing">Processing</option>
+                            <option value="shipped">Shipped</option>
+                            <option value="cancelled">Cancelled</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+            
+          </table>
+    </section>
+</body>
+</html>

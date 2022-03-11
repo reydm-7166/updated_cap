@@ -1,0 +1,26 @@
+main {
+    height: 20vh;
+    width: 15%;
+    border: 1px solid black;
+    margin: 5rem 2rem 2rem 2rem;
+    display: inline-block;
+    vertical-align: top;
+}
+section {
+    display: inline-block;
+    height: 50vh;
+    width: 60%;
+    border: 1px solid black;
+    margin: 2rem 0 5rem; 
+}
+
+form {
+    display: inline-block;
+    margin-left: -20rem;
+    font-size: 1.5rem;
+}
+button {
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+}

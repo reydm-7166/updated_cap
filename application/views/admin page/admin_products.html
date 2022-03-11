@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/admin_products.css">
+    <style>
+        * {
+        box-sizing: border-box;
+            }
+        h2 {
+            display: inline-block;
+        }
+        h3 {
+            position: absolute;
+            top: .1rem;
+            right: 5rem;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="bg-danger">
+        <h2 class="m-4"><a href="">Dashboard</a></h2>
+        <h2 class="m-4"><a href="admin_orders.html">Orders</a></h2>
+        <h2 class="m-4 selected"><a href="admin_products.html">Products</a></h2>
+        <h3 class="m-4"><a href="">Log off</a></h3>
+    </nav>  
+    
+    <main>
+        <main>
+            <form action="" method="post">
+                <input type="text" name="search" id="search" placeholder="Search...">
+                <button id="add_product" class="btn btn-primary">Add New Product</button>
+            </form>
+        </main>
+    </main>
+
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Inventory Count</th>
+                    <th>Quantity Sold</th>
+                    <th>Action</th>
+                    </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="" alt="wala pa"></td>
+                    <td>1</td>
+                    <td>T-Shirt</td>
+                    <td>123</td>
+                    <td>340</td>
+                    <td>
+                        <input type="submit" class="btn btn-success" value="Edit">
+                        <input type="submit" class="btn btn-danger" value="Delete">
+                    </td>
+                </tr>
+                
+            
+            </tbody>
+            
+          </table>
+    </section>
+</body>
+</html>
