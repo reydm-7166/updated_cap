@@ -17,13 +17,21 @@ class Items extends CI_controller {
         $show_all['information'] = $this->Item->get_category();
         $this->load->view('user-page/user_home', $show_all);
     }
-
+    /* 
+    * THIS method sorts them accordinng to their category
+    * Owned by: Reymond
+    */
     public function by_category(){
         $data = $this->input->post();
         $show_all['images_data'] = $this->Item->by_category($data['id']);
 
         $this->load->view('partials/images_partials', $show_all);
     }
+
+    /* 
+    * THIS is the default where it shows all items regardless of their category.
+    * Owned by: Reymond
+    */
 
     public function show_all(){
 

@@ -19,14 +19,12 @@ div.status {
 section {
     display: inline-block;
     vertical-align: top;
-    border: 1px solid black;
     margin: 2rem 0 0 5rem;
     width: 70%;
     height: 85vh;
 }
 img {
     display: inline-block;
-    border: 1px solid black;
     height: 200px;
     width: 200px;
     margin: 1.5rem 1rem 0 0;

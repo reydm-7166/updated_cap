@@ -84,7 +84,7 @@
                 <input type="text" name="search" placeholder="Search...">
                 <input type="submit" name="submit" value="Submit">
             </form>
-            <h2 class="mt-4"><a class="text-dark" href="">Categories</a></h2>
+            <h2 class="mt-4">Categories</h2>
 
             <div class="categories mt-4" id="category">
                 <?php 
@@ -99,7 +99,7 @@
             </div>
         </div>
     </main>
-    <section class="p-5">
+    <section class="p-5 border border-success rounded-3">
         <h1>T-Shirts (page 1)</h1>
         <h3>Sorted By:</h3>
             <div id="images">

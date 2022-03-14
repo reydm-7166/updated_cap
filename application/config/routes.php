@@ -59,4 +59,5 @@ $route['products/by-category'] = 'Items/by_category';
 $route['products/all'] = 'Items/show_all';
 $route['products/show/(:any)'] = 'Item_infos/item_info/$1';
 $route['shopping-cart'] = 'Carts/index';
+$route['payment'] = 'Carts/payment';
 
